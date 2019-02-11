@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="d-flex justify-content-center">
+    <div class="card ">
+        <div id="topBox" class="card-header bg-success">
+                
+            <div id="avatar">
+                <center>
+                <img src="/static/img/3_avatar-512.png" style="width: 18rem;" >
+                </center>
+            </div>
+            
+            <div class="d-flex justify-content-center"> <h1>Mary Jane</h1> </div>
+            <div>
+                <center>
+                <p>@mjane</p>
+                <p> Kingston, Jamaica</p>
+                <p> Joined {{date}}</p>
+                </center>
+            </div>
+        </div>
+
+        <div id="lowerBox" class="card-body">
+            <center>
+                <p> i am smart and talented young woman who loves <br> 
+                website design and development. Contact me if <br>
+                you'd like to work together on a new project.
+                </p>
+            </center>
+            <div id="score" class="d-flex justify-content-center">
+                <div class="p-3"> <h2> 7 </h2> <p> Posts </p></div>
+                <div class="p-3"> <h2> 100 </h2> <p> Following </p></div>
+                <div class="p-3"> <h2> 250 </h2> <p> Followers </p></div>
+            </div>
+            <center>
+                <button type="button" class="btn btn-success"> Follow </button>
+            </center>
+        </div>
+    </div>
+</div>
+{% endblock %}
